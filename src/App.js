@@ -12,7 +12,7 @@ Config.set({
   redirectUri: "http://localhost:3000/callback",
   scope: "openid profile email",
   serverConfig: {
-    baseUrl: "https://id.payments.jpmorgan.com/am",
+    baseUrl: "https://id-cat.payments.jpmorgan.com/am",
     timeout: "5000",
   },
   realmPath: "alpha",
