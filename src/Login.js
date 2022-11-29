@@ -12,6 +12,7 @@ const Login = () => {
         },
         forceRenew: false,
         login: "redirect",
+        support: "legacy",
       });
       if (tokens) {
         history("/protected");
